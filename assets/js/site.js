@@ -110,5 +110,4 @@
     if (e.key === 'ArrowLeft') show(cur - 1);
     if (e.key === 'ArrowRight') show(cur + 1);
   });
-  document.getElementById('yr').textContent = new Date().getFullYear();
 })();
